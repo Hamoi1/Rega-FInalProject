@@ -18,7 +18,6 @@ use Livewire\WithPagination;
 class Map extends Component
 {
     use SEOToolsTrait;
-    use WithNotification;
     use WithPagination;
 
     #[Url(as: 'city')]
